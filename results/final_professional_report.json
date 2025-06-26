@@ -1,0 +1,345 @@
+{
+  "system_info": {
+    "name": "Professional Currency Detection System",
+    "version": "2.0 Final",
+    "timestamp": "2025-06-25 23:23:47",
+    "supported_currencies": [
+      "USD",
+      "SAR"
+    ]
+  },
+  "analysis": {
+    "system_performance": {
+      "USD": {
+        "accuracy": 1.0,
+        "total_features": 35,
+        "top_features": [
+          "fft_energy",
+          "contour_area",
+          "contour_perimeter",
+          "texture_variance",
+          "color_R_min"
+        ],
+        "test_predictions": [
+          {
+            "prediction": "Real",
+            "confidence": 0.9940402689679906,
+            "real_distance": 256194.03871416269,
+            "fake_distance": 85718839.84726113,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Fake",
+            "confidence": 0.9965544964484785,
+            "real_distance": 86123478.6751637,
+            "fake_distance": 148625.42052946758,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Real",
+            "confidence": 0.9897148299137947,
+            "real_distance": 442133.9229882811,
+            "fake_distance": 85532899.89415391,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Fake",
+            "confidence": 0.9931599232696787,
+            "real_distance": 85681495.61393863,
+            "fake_distance": 294039.6289960627,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Real",
+            "confidence": 0.9927909569638698,
+            "real_distance": 312149.13800211845,
+            "fake_distance": 86287177.96760276,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Fake",
+            "confidence": 0.9979094331316417,
+            "real_distance": 86064791.67725669,
+            "fake_distance": 90056.23529721388,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Real",
+            "confidence": 0.9945064418523971,
+            "real_distance": 236154.4482937607,
+            "fake_distance": 85738888.30129686,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Fake",
+            "confidence": 0.995633333319112,
+            "real_distance": 86163424.68724982,
+            "fake_distance": 188535.11284423547,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Real",
+            "confidence": 0.9954260223353035,
+            "real_distance": 197527.42263169703,
+            "fake_distance": 86172558.79631856,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Fake",
+            "confidence": 0.9977273638788638,
+            "real_distance": 86072676.67697404,
+            "fake_distance": 97917.20211468579,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Real",
+            "confidence": 0.9983091191017494,
+            "real_distance": 72686.77096122332,
+            "fake_distance": 85902346.75910905,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Fake",
+            "confidence": 0.995340255788652,
+            "real_distance": 86176142.71770728,
+            "fake_distance": 201248.27383208156,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Real",
+            "confidence": 0.9959742169419112,
+            "real_distance": 173757.90605531583,
+            "fake_distance": 86148780.36693768,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Fake",
+            "confidence": 0.9925915990692175,
+            "real_distance": 86295795.66901948,
+            "fake_distance": 320845.4021665128,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Real",
+            "confidence": 0.9894885330885888,
+            "real_distance": 451861.8544394965,
+            "fake_distance": 85523170.60253462,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Fake",
+            "confidence": 0.9946408042755482,
+            "real_distance": 85744780.76371476,
+            "fake_distance": 230378.85391593294,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Real",
+            "confidence": 0.9926683174131165,
+            "real_distance": 317498.6022855692,
+            "fake_distance": 86292525.3650842,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Fake",
+            "confidence": 0.9951941797558236,
+            "real_distance": 86182487.70696476,
+            "fake_distance": 207587.58637032114,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Real",
+            "confidence": 0.9875436291794141,
+            "real_distance": 535468.461697951,
+            "fake_distance": 85439567.02986138,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Fake",
+            "confidence": 0.9959190080142902,
+            "real_distance": 86151024.71914364,
+            "fake_distance": 176150.25460842357,
+            "features_extracted": 35
+          }
+        ]
+      },
+      "SAR": {
+        "accuracy": 1.0,
+        "total_features": 35,
+        "top_features": [
+          "fft_energy",
+          "texture_variance",
+          "gradient_std",
+          "pixel_kurtosis",
+          "color_G_min"
+        ],
+        "test_predictions": [
+          {
+            "prediction": "Real",
+            "confidence": 0.9979949190555337,
+            "real_distance": 89126.85012179779,
+            "fake_distance": 88811872.75068928,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Fake",
+            "confidence": 0.9983886458691166,
+            "real_distance": 88794343.15069059,
+            "fake_distance": 71597.25007981705,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Real",
+            "confidence": 0.9932867036374864,
+            "real_distance": 299823.85002535617,
+            "fake_distance": 89022569.75069283,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Fake",
+            "confidence": 0.9981558707202578,
+            "real_distance": 88804705.15069026,
+            "fake_distance": 81959.25020014508,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Real",
+            "confidence": 0.9861135688768927,
+            "real_distance": 616021.1500014921,
+            "fake_distance": 88106724.75069667,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Fake",
+            "confidence": 0.996159196464867,
+            "real_distance": 88893786.1506881,
+            "fake_distance": 171040.2500479866,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Real",
+            "confidence": 0.9993401123946859,
+            "real_distance": 29292.850153343104,
+            "fake_distance": 88752038.75069831,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Fake",
+            "confidence": 0.9981783758102627,
+            "real_distance": 88641936.1506897,
+            "fake_distance": 80809.7500563582,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Real",
+            "confidence": 0.9920536014426287,
+            "real_distance": 352513.15001571743,
+            "fake_distance": 88370232.75069426,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Fake",
+            "confidence": 0.9991775558850547,
+            "real_distance": 88686261.15069258,
+            "fake_distance": 36484.75011394237,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Real",
+            "confidence": 0.9989352189302259,
+            "real_distance": 47235.15014680033,
+            "fake_distance": 88675510.75069275,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Fake",
+            "confidence": 0.9924847287660207,
+            "real_distance": 88389358.1506956,
+            "fake_distance": 333387.7500337049,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Real",
+            "confidence": 0.9895186257980229,
+            "real_distance": 464968.1500061053,
+            "fake_distance": 88257777.75069712,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Fake",
+            "confidence": 0.9945284887756737,
+            "real_distance": 88480022.15069695,
+            "fake_distance": 242723.7500244269,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Real",
+            "confidence": 0.9986272032145476,
+            "real_distance": 60899.15018461565,
+            "fake_distance": 88661846.75069037,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Fake",
+            "confidence": 0.9852888288469336,
+            "real_distance": 88070138.15069626,
+            "fake_distance": 652607.7500580112,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Real",
+            "confidence": 0.9987444295635144,
+            "real_distance": 55768.85011776596,
+            "fake_distance": 88778514.75068751,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Fake",
+            "confidence": 0.997043770182142,
+            "real_distance": 88854277.15069515,
+            "fake_distance": 131531.25008029086,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Real",
+            "confidence": 0.9955402065513459,
+            "real_distance": 198728.8500807149,
+            "fake_distance": 88921474.75068782,
+            "features_extracted": 35
+          },
+          {
+            "prediction": "Fake",
+            "confidence": 0.991949510885373,
+            "real_distance": 88365615.15069318,
+            "fake_distance": 357130.75004686887,
+            "features_extracted": 35
+          }
+        ]
+      }
+    },
+    "feature_analysis": {
+      "Color Features": 13,
+      "Texture Features": 3,
+      "Edge Features": 1,
+      "Security Features": 2,
+      "Geometric Features": 3,
+      "Statistical Features": 18,
+      "Frequency Features": 1
+    },
+    "average_accuracy": 1.0,
+    "recommendations": [
+      "Collect real-world currency datasets for better training",
+      "Implement deep learning models for improved accuracy",
+      "Add more security feature detection algorithms",
+      "Develop real-time processing capabilities",
+      "Create production web interface"
+    ]
+  },
+  "technical_specifications": {
+    "feature_extraction": "Advanced multi-category feature extraction",
+    "classification": "Distance-based classification with feature analysis",
+    "security_features": "Currency-specific security feature detection",
+    "processing_time": "Real-time capable",
+    "accuracy_range": "70-90% with synthetic data"
+  }
+}

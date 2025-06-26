@@ -1,0 +1,15 @@
+opencv-python
+numpy
+scikit-learn
+tensorflow
+matplotlib
+seaborn
+pandas
+pillow
+scikit-image
+imutils
+requests
+beautifulsoup4
+streamlit
+plotly
+joblib
