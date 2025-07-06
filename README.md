@@ -334,10 +334,6 @@ Contributions are welcome! Please read our contributing guidelines:
 4. Add tests and documentation
 5. Submit a pull request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🆘 Troubleshooting
 
 ### Common Issues
